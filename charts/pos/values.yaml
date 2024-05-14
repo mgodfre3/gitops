@@ -24,7 +24,7 @@ env:
   Ring: lab
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 8080
 
 livenessProbe:
